@@ -11,4 +11,7 @@ Tools I used:
 - Rofi
 - Swaync
 
-I hope you like it.
+
+## Installation
+
+To use this theme, copy the `ironbar` and `swaync` configuration folders to your `~/.config/` directory

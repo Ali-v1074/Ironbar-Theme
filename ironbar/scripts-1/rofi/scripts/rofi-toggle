@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+
+if pgrep -x rofi >/dev/null 2>&1; then
+    pkill -x rofi >/dev/null 2>&1
+    exit 0
+fi
+
+
+rofi -show drun -theme ~/.config/ironbar/scripts-1/rofi/style.rasi >/dev/null 2>&1 &
+exit 0
